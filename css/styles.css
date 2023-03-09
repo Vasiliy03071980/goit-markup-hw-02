@@ -15,11 +15,11 @@ body {
   color: tomato;
 }
 .nav-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
 .adress-text {
@@ -63,10 +63,47 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
     }
 
+    .button-header {
+      font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+    }
 
 /*------Main------*/
+.text-header { 
+  background: #2E2F42;
+}
 
+.text-h1 {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 
+}
+
+.text-main {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.text-description {
+
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 
 
 /*------Footer------*/
