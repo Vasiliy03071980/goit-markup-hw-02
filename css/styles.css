@@ -1,17 +1,16 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #e5e5e5;
 }
 /*------Header------*/
 .page-header {
   box-sizing: border-box;
-
- 
 }
 
 .page-nav {
 }
-.page-nav a:hover, :focus {
+.page-nav a:hover,
+:focus {
   color: tomato;
 }
 .nav-text {
@@ -19,103 +18,108 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .adress-text {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .adress-text a:hover {
   color: tomato;
 }
 
-
 /*------ButtonSection------*/
 
-.button-text-all  {
-font-weight: 500;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.04em;
-color: #141414;
-
+.button-text-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-text-all a:hover,
+:focus .button-text a:hover {
+  background-color: #404bbf;
 }
 
-.button-type {
-background: #404BBF;
+.button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
-.button-text a:hover{
-    background-color: #404BBF;
-    }
 
-    .button-text {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1,5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-    }
-
-    .button-header {
-      font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-    }
+.button-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
 
 /*------Main------*/
-.text-header { 
-  background: #2E2F42;
+.text-header {
+  background: #2e2f42;
 }
 
 .text-h1 {
   font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 
+.text-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .text-main {
   font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .text-description {
-
   font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
 
 /*------Footer------*/
 .page-footer {
   background: #2e2f42;
 }
 .footer-text {
-  
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
-
