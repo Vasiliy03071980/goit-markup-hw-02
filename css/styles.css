@@ -1,23 +1,28 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   background: #e5e5e5;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 /*------Header------*/
 .page-header {
 }
 
-.page-nav {
-}
-.page-nav a:hover,
-:focus {
-  color: tomato;
-}
 .nav-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.nav-text a:hover, :focus {color: #404BBF;
+
 }
 
 .adress-text {
@@ -27,8 +32,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.adress-text a:hover {
-  color: tomato;
+.adress-text  a:hover, :focus {
+  color: #404BBF;
 }
 
 /*------ButtonSection------*/
@@ -43,13 +48,15 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #404bbf;
+  cursor: pointer;
 }
 .button-text-all a:hover,
-:focus .button-text a:hover {
-  background-color: #404bbf;
+:focus .button-text a:hover, :focus {
+  color: #404bbf;
 }
 
 .button-text {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -58,7 +65,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: #f4f4fd;
+  
 }
 
 .button-header {
@@ -69,7 +76,10 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background: #4D5AE5;
+}
+.button-header  a:hover, :focus { background:  #404BBF;
+
 }
 
 /*------Main------*/
