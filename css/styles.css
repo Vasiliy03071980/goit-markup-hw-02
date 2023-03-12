@@ -1,8 +1,9 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   background: #e5e5e5;
   color: #2e2f42;
+  color: #434455
 }
 
 .link {
@@ -60,8 +61,6 @@ body {
 }
 
 .button-text-all {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
