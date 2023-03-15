@@ -78,41 +78,26 @@ body {
   color: #404bbf;
 }
 
-.button-text-all {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #404bbf;
-  cursor: pointer;
-}
-.button-text-all :hover {
-  color: #404bbf;
-  background-color: #ffffff;
-}
-.button-text-all :focus {
-  color: #404bbf;
-  background-color: #ffffff;
-}
+
+
 
 .button-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #4D5AE5;
   cursor: pointer;
 }
 .button-text :hover {
   color: #ffffff;
-  background-color: #404bbf;
+  background: #404bbf;
 }
 .button-text :focus {
   color: #ffffff;
