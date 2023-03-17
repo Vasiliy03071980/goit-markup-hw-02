@@ -92,15 +92,11 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
-  cursor: pointer;
   background-color: #F4F4FD;
   cursor: pointer;
 }
-.button-text :hover {
-  color: #FFFFFF;
-  background-color: #404BBF;
-}
-.button-text :focus {
+.btn-hover > li :hover,
+.btn-hover > li :focus {
  color: #FFFFFF;
   background-color: #404BBF;
 }
